@@ -1,5 +1,5 @@
 # Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
+platform :ios, '12.0'
 
 target 'Minutes' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
@@ -7,4 +7,6 @@ target 'Minutes' do
 
   # Pods for Minutes
   pod 'AppCenter'
+  pod 'AppCenter/Distribute'
+  pod 'AppCenter/Push'
 end
